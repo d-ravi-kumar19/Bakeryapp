@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&family=Roboto:wght@300;900&display=swap');
+.app {
+    display: flex;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .sidebar-open .content {
+    margin-left: 200px;
+  }
+  

@@ -1,0 +1,63 @@
+.priceCard{
+    margin-top: 100px;
+}
+.card{
+    border: none;
+    margin-top:100px;
+}
+
+
+.card .card-body .row .bottom-btn {
+    justify-content: space-between;
+}
+.card .card-body .row .cart-btn{
+    border-color: #e91f63;
+    background-color: white;
+    margin-right: 30px;
+}
+.card .card-body .row .buy-btn{
+    background-color:#f8b2ca;
+}
+
+
+
+.card .card-body .row .delivery input{
+    border-radius: 5px;
+    background-color: #ffff;
+    border-color: black;
+}
+
+.card .card-body .row  .weight-control{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    
+}
+
+.card .card-body .row  .weight-control .weight-btn{
+     width:30px;
+     height:30px;
+     border-radius: 2px;
+}
+
+.card .card-body .row .weight-control .weight-border{
+    border-bottom: 2px solid black;
+    width:50%;
+    text-align: center;
+}
+
+
+.additional-images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .additional-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
