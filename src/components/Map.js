@@ -133,7 +133,7 @@ export default Map;
 //   };
 
 //   return (
-//     <LoadScript googleMapsApiKey="AIzaSyBst5XJW9XhdMRGrrIV_7T1iBDeyPiBtLw">
+//     <LoadScript googleMapsApiKey=process.env.GOOGLEMAPS_API_KEY>
 //       <GoogleMap
 //         mapContainerStyle={{ height: '400px', width: '100%' }}
 //         center={userLocation || sourceLocation}
@@ -230,7 +230,7 @@ export default Map;
 //   };
 
 //   return (
-//     <LoadScript googleMapsApiKey="AIzaSyBst5XJW9XhdMRGrrIV_7T1iBDeyPiBtLw">
+//     <LoadScript googleMapsApiKey=process.env.GOOGLEMAPS_API_KEY>
 //       <GoogleMap
 //         mapContainerStyle={{ height: '400px', width: '100%' }}
 //         center={userLocation || sourceLocation}
