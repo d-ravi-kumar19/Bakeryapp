@@ -48,7 +48,7 @@ const Map= () => {
 
   return (
     <div className='' style={{marginTop:'80px',marginLeft:'30px'}} >
-      <LoadScript googleMapsApiKey="AIzaSyBst5XJW9XhdMRGrrIV_7T1iBDeyPiBtLw" >
+      <LoadScript googleMapsApiKey=process.env.GOOGLEMAPS_API_KEY >
       <GoogleMap
         mapContainerStyle={{ height: '400px', width: '400px' }}
         center={sourceLocation}
