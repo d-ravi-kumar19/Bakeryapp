@@ -113,7 +113,7 @@ const Login = () => {
           <form className='login-form' onSubmit={onSignInSubmit}>
             <div id="sign-in-button"></div>
             <input type="text" name="name" placeholder="Name" required value={name} onChange={handleChange} />
-            <input type="number" name="mobile" placeholder="Mobile number" required value={mobile} onChange={handleChange} />
+            <input type="text" name="mobile" placeholder="Mobile number" required value={mobile} onChange={handleChange} />
             <button type="submit">Submit</button>
           </form></>
       )}
